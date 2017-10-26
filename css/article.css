@@ -147,6 +147,7 @@ b{
 
 
 /*------Main Styles----------*/
+
 #title-box {
 	margin-top: 10px;
 	padding-left: 5%;
@@ -159,6 +160,7 @@ b{
 
 #top-container{
 	padding: 0;
+	padding-top: 60px;
 	width: 86%;
 	margin:0px 7%;
 }
