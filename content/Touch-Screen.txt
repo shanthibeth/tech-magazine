@@ -1,0 +1,49 @@
+Touch Screen
+
+link: http://scienceline.org/2012/01/okay-but-how-do-touch-screens-actually-work/
+
+Title: Feeling the Science of Touch Screens
+
+Tagline: We swipe, tap, and scroll on a regular basis, but how do our devices actually feel us?
+
+Okay, but how do touch screens actually work?
+Swipe: verb; the act of moving one’s finger across a touch screen.
+Okay, but how do touch screens actually work?  
+[Image Credit: Flickr via Adactio ]
+By Allison T. McCann | Posted January 17, 2012
+Posted in: Ever Wondered? 
+Tags: capacitive, resistive, swipe, touchscreen
+I recently overheard a woman on the subway telling her friend that her toddler “swipes” everything in their house – the coffee table, books, plates and even her own mother, trying to make her disappear like an image on a touch screen. The story got me thinking that for many of us, our knowledge of what’s going on behind that glossy display isn’t much more than a toddler’s.
+
+Before I started researching how touch screens worked, I figured there was one universal technology behind the “swipable” phenomenon. Instead it turns out there are half a dozen, and more being researched every day. The two most commonly used systems are resistive and capacitive touch screens. For the sake of simplicity, I will focus here on these two systems and finish with where experts think touch screen technology is headed.
+
+1. Resistive
+
+These are the most basic and common touch screens, the ones used at ATMs and supermarkets, that require an electronic signature with that small grey pen. These screens literally “resist” your touch; if you press hard enough you can feel the screen bend slightly. This is what makes resistive screens work – two electrically conductive layers bending to touch one another, as in this picture:
+
+
+Resistive touch screen technology [Image Credit: Chassis Plans]
+
+One of those thin yellow layers is resistive and the other is conductive, separated by a gap of tiny dots called spacers to keep the two layers apart until you touch it. (A thin, scratch-resistant blue layer on top completes the package.) An electrical current runs through those yellow layers at all times, but when your finger hits the screen the two are pressed together and the electrical current changes at the point of contact. The software recognizes a change in the current at these coordinates and carries out the function that corresponds with that spot.
+
+Resistive touch screens are durable and consistent, but they’re harder to read because the multiple layers reflect more ambient light. They also can only handle one touch at a time – ruling out, for example, the two-finger zoom on an iPhone. That’s why high-end devices are much more likely to use capacitive touchscreens that detect anything that conducts electricity.
+
+2. Capacitive
+
+Unlike resistive touch screens, capacitive screens do not use the pressure of your finger to create a change in the flow of electricity. Instead, they work with anything that holds an electrical charge – including human skin. (Yes, we are comprised of atoms with positive and negative charges!) Capacitive touch screens are constructed from materials like copper or indium tin oxide that store electrical charges in an electrostatic grid of tiny wires, each smaller than a human hair.
+
+
+Capacitive touch screen technology [Image credit: Electrotest]
+
+There are two main types of capacitive touch screens – surface and projective. Surface capacitive uses sensors at the corners and a thin evenly distributed film across the surface (as pictured above) whereas projective capacitive uses a grid of rows and columns with a separate chip for sensing, explained Matt Rosenthal, an embedded project manager at Touch Revolution. In both instances, when a finger hits the screen a tiny electrical charge is transferred to the finger to complete the circuit, creating a voltage drop on that point of the screen. (This is why capacitive screens don’t work when you wear gloves; cloth does not  conduct electricity, unless it is fitted with conductive thread.) The software processes the location of  this voltage drop and orders the ensuing action. (If you’re still confused, watch this video.)
+
+3. What’s next? Sizing Up
+
+Newer touch screen technologies are under development, but capacitive touch remains the industry standard for now. The biggest challenge with touch screens is developing them for larger surfaces  –  the electrical fields of larger screens often interfere with its sensing capability.
+
+Software engineers from Perceptive Pixel, which designs multi-touch screens, is using a technology called frustrated total internal reflection (FTRI) for their larger screens, which are as big as 82-inches. When you touch an FTRI screen you scatter light – and several cameras on the back of the screen detect this light as an optical change, just as a capacitive touch screen detects a change in electrical current.
+
+
+Frustrated total internal reflection [Image Credit: Jeff Han Laboratory, formerly NYU now Perceptive Pixel]
+
+82 inches? That’s the perfect size for a swipeable coffee table.

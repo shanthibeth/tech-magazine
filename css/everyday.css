@@ -1,0 +1,255 @@
+/*everyday.css*/
+
+/*------Colors---------
+green: #3cb878
+purple: #6c4482
+gold: #cf9321
+*/
+
+
+/*---------Font Families----------
+title/headings: Playfair Display SC
+subheadings: Noto Serif (bold itallics)
+text: Noto Sans*/
+
+/*------General Styling------------------------------------------------------*/
+.title{
+	font-family: 'Playfair Display SC', serif;
+	/*font-weight: 700;*/
+	color: #cf9321;
+	margin-left: 5px;
+	font-size: 1.3em;
+}
+
+/*-------------Navbar Styling-------------------------------------------------*/
+#navbar{
+	margin-bottom: 0;
+	border:0px;
+	position: fixed;
+	z-index: 10;
+	width: 100%
+}
+.navbar-header {
+  /*float: none;*/
+  padding-left:15px;
+  padding-right: 5px;
+}
+/*Keep Navbar Toggle Always Active*/
+/*#navbar{
+	margin-bottom: 0;
+	border:0px;
+}
+.navbar-header {
+  float: none;
+  padding-left:15px;
+  padding-right: 15px;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse {
+	/*width: 30%;
+	margin: 0;*/
+  	/*border-top: 1px solid transparent;
+  	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+  margin: 7.5px -15px;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}*/
+
+
+/*Other navbar styling*/
+#nav-container, nav#navbar{
+	padding-left: 0px;
+	padding-right: 0px;
+	background: white;
+}
+.navbar-nav li.active{
+	background-color: #ddd;
+}
+#my-toggle>span.icon-bar{
+	background-color:#3cb878;
+}
+.navbar-header>a.navbar-brand{
+	padding: 5px;
+}
+
+#nav-logo, #nav-titile{
+	display: inline-block;
+}
+
+#nav-logo{
+	height: 100%;
+}
+
+/*.navbar-nav>li>a.two-lines{
+	padding: 5px 15px;
+}*/
+
+#navbarCollapse>ul.nav.navbar-nav>li>a{
+	font-family: 'Noto Sans', sans-serif;
+	color:#3cb878;
+}
+
+#navbarCollapse>ul.nav.navbar-nav>li.active>a{
+	color:#6c4482;
+	background-color: rgba(255,255,255,.15);
+	background-image: none;
+}
+
+
+
+/*------Main Styles----------*/
+
+#main-container{
+	padding: 0;
+	width: 86%;
+	margin:0px 7%;
+}
+
+#jumbo-banner{
+	padding: 0px;
+	position: relative;
+	margin-bottom: 5px;
+	/*background-image: url(../imgs/close-phone-ban.jpg);*/
+}
+
+.banner-img{
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.overlay{
+	position: absolute;
+	width:30%;
+	height: 100%;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,.3);
+	padding:20px;
+}
+
+hr.h-divider{
+	background: #cf9321;
+	border: 0;
+    height: 1px;
+    margin: 5px 0px;
+}
+
+#section-links{
+	font-family: "Playfair Display SC", Times, Serif;
+	margin-left: auto;
+	text-align: center;
+	font-size: 1.2em;
+	color:#cf9321;
+}
+
+.sec-link{
+	color:#cf9321;
+}
+
+
+.cur-sec{
+	font-weight: bolder;
+	color: #776282;
+	/*text-decoration: underline;*/
+}
+
+.sec-link:hover{
+	color:#6c4482;
+}
+
+/*--Articles--*/
+.article-row{
+	margin:30px 0px;
+}
+
+.article-col{
+	padding: 5px 5%;
+}
+
+.article-img{
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.article-text{
+	font-family: "Noto Serif", Times, Serif;
+}
+
+h3.article-title>a{
+	color:#3cb878;
+	font-family: "Playfair Display SC", serif;
+	font-weight: 900;
+}
+
+/*.vertical-rule{
+	display: inline-block;
+	margin-right: 0px;
+	width: 1px;
+	background: #6c4482;
+	height: 100%;
+}*/
+
+/*-------Footer Styles-----------*/
+
+footer{
+	height: 120px;
+	padding: 0px;
+	background:black;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	font-family: "Noto Serif",serif;
+}
+
+#footer-logo{
+	height:110px;
+	padding-top: 10px;
+}
+#footer-body{
+	margin-top:20px;
+	/*margin-bottom: 10px;*/
+}
+#footer-note{
+	color:#3cb878;
+	margin-bottom: 5px;
+}
+.footer-purple a{
+	color: #6c4482;
+}
+#footer-nav{
+	font-family: "Noto Sans", sans-serif;
+	margin-bottom: 10px;
+	color:#cf9321;
+	/*font-size: 1em;*/
+}
+
+footer a{
+	padding: 0px 10px;
+	color:#cf9321;
+}
+
+footer a:hover{
+	color: white;
+}
+
+
+
+
+
